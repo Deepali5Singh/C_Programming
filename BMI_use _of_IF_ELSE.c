@@ -8,9 +8,11 @@ int main () {
    printf("Enter the weight");
    scanf("%f",&Weight);
     float height;
+     printf("Enter the height");
+     
+     scanf("%f",&height);
     float BMI = 0.0;
- printf("Enter the height");
- scanf("%f",&height);
+
  if (Weight>=30.0 && Weight<=300.0){
     if(height>= 1.0 && height<=2.0){
       BMI = Weight / (height * height);
