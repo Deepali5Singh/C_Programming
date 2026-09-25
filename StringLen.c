@@ -7,4 +7,5 @@ gets(name);
 puts(name);
 int count = 0;
 count = strlen(name);
+printf("%d",count);
 }
