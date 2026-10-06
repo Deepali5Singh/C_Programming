@@ -7,5 +7,5 @@ int main () {
     vp = &a;
     printf("%d\n",vp);
     // printf("%d",*vp);This is not allowed in void pointer
-printf("%d",vp++);
+printf("%d",vp++);//does not increased the address
 }
