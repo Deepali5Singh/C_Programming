@@ -1,6 +1,7 @@
 #include<stdio.h>
 
 void Run(int, int);
+
 void main() {
     int x = 5;
      int y = 7;
