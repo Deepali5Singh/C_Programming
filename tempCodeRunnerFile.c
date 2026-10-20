@@ -1,3 +1,1 @@
- // int x = 5;
-    //  int y = 7;
-    // Run(x,y);
+printf("%d",average);
