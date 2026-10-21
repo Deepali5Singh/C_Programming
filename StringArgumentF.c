@@ -1,7 +1,7 @@
 #include<stdio.h>
 char Student (char [], char);
-int main (){
-    char names[100] = {'sushma', 'veenu', 'Seenu','pooja','vidhi'};
+void main (){
+    char names[] = {'sushma', 'veenu', 'Seenu','pooja','vidhi'};
     char Section = 'a';
     char info = Student(names,Section);
 
@@ -9,8 +9,8 @@ int main (){
 }
 
 char Student (char names[],char Section){
-int a =5;
-    for (int i = 0; i<a; i++){
+
+    for (int i = 0; i<5; i++){
     printf("%s\n",names);
     printf("%s",Section);
     }
