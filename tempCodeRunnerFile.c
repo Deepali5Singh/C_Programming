@@ -1,1 +1,1 @@
-printf("%d",average);
+p

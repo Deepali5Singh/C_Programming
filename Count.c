@@ -10,14 +10,14 @@ int main () {
    scanf("%s",s);
 
    for (int i = 0; i<20; i++){
-    if(s[i]=='a' || s[i]=='e'|| s[i]=='i' || s[i]=='o' ||s[i]=='u'){
-        Vowvel =  Vowvel + 1;
+    if(s[i]=='a' || s[i]=='e'|| s[i]=='i' ||s[i]=='o'||s[i]=='u'){
+        Vowvel++;
     }
     else if( s[i] >='0' && s[i]<='9'){
-       digit = digit + 1;
+       digit++;
     }
-    else if (s[i]>= 'a' && s[i]<='z') {
-        consonant = consonant + 1;
+    else if (s[i]>= 'A' && s[i]<='z') {
+        consonant++;
     }
    }
    printf("%d%d%d",Vowvel,digit,consonant );
