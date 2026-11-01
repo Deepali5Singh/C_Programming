@@ -1,1 +1,1 @@
-p
+int (*fptr [c])(a, b);
