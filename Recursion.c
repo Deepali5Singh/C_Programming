@@ -3,7 +3,7 @@ void  display (int n){
     if(n<1){}
     else{
 printf("%d",n);
-display(n-1);
+display(n-1);// function here calling itself
 printf("%d",n);
     }
 }

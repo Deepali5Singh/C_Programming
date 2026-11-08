@@ -3,7 +3,7 @@ int sum (int x){
     if (x == 1){
         return x;
     }
-    int s = x + sum(x-1);
+    int s = x + sum(x-1); // the function is calling itself 
     return s;
 }
 int main () {
