@@ -6,4 +6,5 @@ struct student {
 };
 int main(){
  struct student s1 = {1,"Jenny", 90.1};
+ 
 }
